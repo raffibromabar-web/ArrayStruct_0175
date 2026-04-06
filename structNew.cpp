@@ -7,3 +7,14 @@ struct Orang
     string alamat;
     int umur;
 };
+
+int main (){
+    Orang mhs;
+    cout << "Nama : " ;
+    cin >> mhs.nama;
+    cout << "Alamat : " ;
+    cin >> mhs.alamat;
+    cout << "Umur : " ;
+    cin >> mhs.umur;
+    cout << endl;
+}
